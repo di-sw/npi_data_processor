@@ -17,6 +17,14 @@ Aapplication logic/features
 Extracts meaningful provider (individual and organization) records from NBER data that was correlated (via NPI) with state provider license data, HHS NPPES data and provider taxonomy data.  See https://www.nber.org/research/data/national-plan-and-provider-enumeration-system-nppes.
 The NBER data is richer than the HHS NPPES data but older.  HHS NPPES is published monthly whereas the NBER data was last published May of 2024.  Unlike the HHS NPPES data, the NBER data captures provider state licensing and sole proprietor status, I believe both capture provider taxonom(ies).
 
+- Licensed Individual Provider Column Headers and Data Rows
+  
+  ![Licensed individual provider column headers and data rows](./images/data.png)
+
+- Licensed Provider State Sheet Tabs
+  
+  ![Licensed provider state tabs](./images/states.png)
+
 Application logic/features
 ===========================================
 - We load all NPI to taxonomy records where the taxonomy code matches the subset of codes we care about.
